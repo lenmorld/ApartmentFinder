@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 
-from flask import Flask
-from flask import render_template, jsonify, url_for
-from models import *
 import json
-from playhouse.shortcuts import model_to_dict, dict_to_model
-from flask_jsglue import JSGlue
+
+from flask import Flask
+from flask import render_template
+from playhouse.shortcuts import model_to_dict
 
 app = Flask(__name__)
 

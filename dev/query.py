@@ -6,7 +6,7 @@ Created on Thu Jun  8 22:44:37 2017
 @author: lenmor
 """
 
-from models import *
+from dev.models import *
 
 schools = School.get(School.school_name == 'Union Square Academy for Health Sciences')
 # print (school.dbn)

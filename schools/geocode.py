@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 
-from models import *
-import requests
 from time import sleep
+
+import requests
+
+from dev.models import *
 
 # run migration (adding, removing or changing your DB)
 
