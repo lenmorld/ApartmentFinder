@@ -49,17 +49,17 @@ Flask web application with data processing, geocoding and mapping to CartoDB
 
 
 - geocode_address(address)
-	INPUT: physical address
-	OUTPUT: lat, long
+    - INPUT: physical address
+	- OUTPUT: lat, long
 
 - search_places(term, location, lat, long, url)
-	Yelp places script : get number of establishments given a lat, long
-			      location and url not used yet
+	- Yelp places script : get number of establishments given a lat, long
+			                location and url not used yet
 
-    hardcoded params:
-    LIMIT  - limit search results
-    RADIUS – radius from given lat, long
-    query YELP API for businesses
+    - hardcoded params:
+        LIMIT  - limit search results
+        RADIUS – radius from given lat, long
+    - query YELP API for businesses
 
 
 #### sample output:
