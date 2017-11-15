@@ -1,0 +1,21 @@
+<html ng-app="app">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false&language=en"></script>
+<!--<script
+  src="js?sensor=true"></script>-->
+
+  <script src="app.js"></script>
+
+</head>
+  
+<body ng-controller="MainCtrl">
+  <input type="text" placeholder="Type address here" ng-model="txtAddress" />
+  <button ng-click="seachAddress()">SEARCH</button>
+
+  <google-map id="googleMap" style="width:75%;height:75%;"></google-map>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<html ng-app="app">
+<head>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="jquery-3.2.1.min.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <script src="angular.min.js"></script>
+<!-- <script src="http://maps.googleapis.com/maps/api/js?sensor=false&language=en"></script> -->
+<!--<script
+  src="js?sensor=true"></script>-->
+
+    <!-- GOOGLE MAPS -->
+    <script src="http://maps.googleapis.com/maps/api/js?language=en&key=AIzaSyBieW1k2PuXWUliya6U_nXha7phVEZh_Xc"></script>
+
+  <script src="app2.js"></script>
+
+</head>
+  
+<body ng-controller="MyCtrl">
+  <!-- <input type="text" placeholder="Type address here" ng-model="txtAddress" /> -->
+  <!-- <button ng-click="seachAddress()">SEARCH</button> -->	
+
+  <ul>
+  	<li>=)</li>
+  	<li ng-repeat="point in points">{{point.apt_id}} * {{point.LAT}} * {{point.LONG}}</li>
+  </ul>
+
+  <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+          <google-map id="googleMap" style="background-color: #00B7FF;width:1024px;height:500px;">
+              This will disappear<br/>SAMPLE CONTENT
+          </google-map>
+      </div>
+  </div>
+
+</body>
+</html>

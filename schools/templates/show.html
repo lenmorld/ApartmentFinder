@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<h1>{{ school.school_name }}</h1>
+<p>This school has {{ school.total_students }} total students. </p>
+                   
+{% endblock %}
+
+<div id="map" stlye="height: 250px;"></div>
+
+<!-- CartoDB -->
+
+<script type="text/javascript" src="show.js">
+</script>
+

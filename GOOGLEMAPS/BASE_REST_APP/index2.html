@@ -1,0 +1,25 @@
+<html ng-app="app">
+<head>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="jquery-3.2.1.min.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <script src="angular.min.js"></script>
+<!-- <script src="http://maps.googleapis.com/maps/api/js?sensor=false&language=en"></script> -->
+<!--<script
+  src="js?sensor=true"></script>-->
+
+  <script src="app2.js"></script>
+
+</head>
+  
+<body ng-controller="MyCtrl">
+  <!-- <input type="text" placeholder="Type address here" ng-model="txtAddress" /> -->
+  <!-- <button ng-click="seachAddress()">SEARCH</button> -->	
+
+  <ul>
+  	<li>=)</li>
+  	<li ng-repeat="point in points">{{point.id}} - {{point.name}}</li>
+  </ul>
+
+</body>
+</html>

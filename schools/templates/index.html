@@ -1,0 +1,14 @@
+<h1>Hello World! =)</h1>
+
+<h1>NYC High Schools</h1>
+<p>
+    There are {{count}} schools in NYC
+</p>
+
+<ul>
+    {% for school in schools %}
+        <p>
+            <a href="/schools/{{ school.dbn  }}">{{ school.school_name }}</a>
+        </p>
+    {% endfor %}
+</ul>

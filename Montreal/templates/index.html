@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <script src="https://code.jquery.com/jquery-1.8.0.min.js"></script>
+    <script>
+      // var crimes = '{{ crimes }}';
+        function convertData(data) {
+            crimes = data;
+        }
+        convertData({{ data|safe }});
+    </script>
+    <style>
+       #map {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+  <div id="map" style="width: 100%; height: 100%"></div>
+<!--   <select>
+  {% for crime in crimes %}
+      <option value="{{ crime.CATEGORIE }}">{{ crime.CATEGORIE }}</option>
+  {% endfor %}
+  </select> -->
+
+
+  <script src="{{ url_for('static', filename='map.js') }}"></script>
+
+  <!-- CLUSTERING MARKERS-->
+  <script src="{{ url_for('static', filename='libraries/markerclusterer.js') }}">
+  </script>
+
+
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIB1S-WLjLiDO4DpkhXg3InB6LBLsioBc&callback=initMap">
+  </script>
+
+
+  
+
+  </body>
+</html>

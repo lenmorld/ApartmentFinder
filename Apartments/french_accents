@@ -1,0 +1,21 @@
+\u00c8
+\u00c0
+\u00e9
+\u00ce
+\u00c0
+\u25ba
+\u00e0
+\u00bd
+\u2014
+
+
+"location": "Laval / North Shore", "desc": "Disponibles maintenant! Possibilit\u00e9 d'un mois gratuit pour le bon candidat/e. \u00c0 Deux-Montagnes pr\u00e8s de la gare deux (2) appartements 4 1/2 bien situ\u00e9 pr\u00e8s de tous les services. Situ\u00e9 dans un sixplex, ...", "date_posted": "16/08/2017", "image": "https://i.ebayimg.com/00/s/ODAwWDYwMA==/z/Ge8AAOSwjL5ZC1Zb/$_35.JPG"
+"address": ["Deux-Montagnes, QC J7R5T1"]},
+{"apt_id": "1289321629", "url": "/v-appartement-condo-4-1-2/ville-de-montreal/blvd-langelier-beau-4-1-2-renove-disponible-des-maintenant/1289321629", "price": "$750.00", "title": "Blvd Langelier,  Beau 4 1/2, r\u00e9nov\u00e9, disponible d\u00e8s Maintenant", "location": "City of Montr\u00e9al", "desc": "Un beau et grand 4 1/2 fra\u00eechement r\u00e9nov\u00e9 (voir photos) dans un bloc de 07 app
+
+
+
+"Disponibles maintenant! Possibilit\u00e9 d'un mois gratuit pour le bon candidat/e. \u00c0 Deux-Montagnes pr\u00e8s de la gare deux (2) appartements 4 1/2 bien situ\u00e9 pr\u00e8s de tous les services. Situ\u00e9 dans un sixplex, ...".encode('ascii', 'xmlcharrefreplace')
+
+
+new_string.encode('ascii', 'xmlcharrefreplace')          # convert unicode (usu. French) to HTML entities
