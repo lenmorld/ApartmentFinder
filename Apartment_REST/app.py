@@ -21,7 +21,8 @@ with open('apts.json') as apt_file:
 @app.route('/')
 def home():
     # return "<div>Hello world of HTML</div>"
-    return render_template('index.html')
+    # return render_template('index.html')
+    return jsonify(data)
 
 @app.route('/apartments')
 def get_apartments():
